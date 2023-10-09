@@ -1,4 +1,4 @@
-# SETSET09102 Testing Practical Project Fixed
+# SET09102 Testing Practical Project Fixed
 
 This repository contains the testing practical project for the module SET09102.
 
