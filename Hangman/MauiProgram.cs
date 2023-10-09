@@ -21,6 +21,10 @@ namespace Hangman
             builder.Services.AddSingleton<GameRepository>(s =>
                 ActivatorUtilities.CreateInstance<GameRepository>(s, dbPath));
 
+            #if DEBUG
+                builder.Logging.AddDebug();
+            #endif
+
             return builder.Build();
         }
     }
