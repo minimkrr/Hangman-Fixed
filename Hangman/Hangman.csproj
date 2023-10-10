@@ -62,6 +62,7 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+	  <PackageReference Include="Moq" Version="4.20.69" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Raw\wordlist.txt" />
